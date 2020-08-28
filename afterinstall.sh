@@ -4,6 +4,7 @@ cd gnome-terminal-colors-solarized && ./install.sh
 cd ~
 sudo apt-get install build-essential
 sudo apt install git
+sudo apt purge copyq
 sudo apt install tmux
 sudo apt install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
